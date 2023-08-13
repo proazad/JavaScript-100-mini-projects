@@ -1,0 +1,22 @@
+.container {
+  width: calc(100% - 20%);
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  margin-left: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #202020;
+}
