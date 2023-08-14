@@ -4,15 +4,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Count Tasbih</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
   <body>
-    <h1>This is Tasbih project</h1>
-    <a href="../index.html">Back Home</a>
-    <main id="main-content">
-      <div class="bismillah">Bismillah</div>
-      <div class="alhamdulillah">Alhamdulillah</div>
-      <div class="allahuakbar">Allahu Akbar</div>
+    <a href="../index.html" class="btn m-2 text-info btn-active text-black"
+      >Back Home</a
+    >
+    <header class="text-center py-4">
+      <h1 class="text-5xl font-black">ডিজিটাল তসবি</h1>
+    </header>
+    <main
+      id="main-content"
+      class="w-10/12 mx-auto flex flex-col md:flex-row gap-4"
+    >
+      <div class="card flex-1 bg-base-100 shadow-xl image-full">
+        <img
+          src="./assets/images/subhanallah.svg"
+          class="w-full"
+          alt="Subohanallah"
+        />
+        <div class="card-body text-center">
+          <h2 class="text-3xl font-black text-white">সুবহানাল্লাহ</h2>
+          <h2 class="text-3xl font-black text-white">سبحان الله</h2>
+          <h1 class="text-4xl text-while font-black" id="count1">0</h1>
+          <div class="card-actions justify-center">
+            <button
+              class="btn btn-active btn-neutral text-2xl"
+              id="subohanallah"
+            >
+              পড়ুন
+            </button>
+            <button id="delete1" class="btn btn-active btn-neutral text-2xl">
+              ডিলিট করুন
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card flex-1 bg-base-100 shadow-xl image-full">
+        <img
+          src="./assets/images/alhamdulillah.png"
+          class="w-full"
+          alt="Subohanallah"
+        />
+        <div class="card-body text-center">
+          <h2 class="text-3xl font-black text-white">আলহামদুলিল্লাহ</h2>
+          <h2 class="text-3xl font-black text-white">الحمد لله</h2>
+          <h1 class="text-4xl text-while font-black" id="count2">0</h1>
+          <div class="card-actions justify-center">
+            <button
+              type="button"
+              class="btn btn-active btn-neutral text-2xl"
+              id="alhamdulillah"
+            >
+              পড়ুন
+            </button>
+            <button id="delete2" class="btn btn-active btn-neutral text-2xl">
+              ডিলিট করুন
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card flex-1 bg-base-100 shadow-xl image-full">
+        <img
+          src="./assets/images/allah (1).jpg"
+          class="w-full"
+          alt="Subohanallah"
+        />
+        <div class="card-body text-center">
+          <h2 class="text-3xl font-black text-white">আল্লাহু আকবার</h2>
+          <h2 class="text-3xl font-black text-white">الله أكبر</h2>
+          <h1 class="text-4xl text-white font-black" id="count3">0</h1>
+          <div class="card-actions justify-center">
+            <button
+              type="button"
+              class="btn btn-active btn-neutral text-2xl"
+              id="allahuakbar"
+            >
+              পড়ুন
+            </button>
+            <button id="delete3" class="btn btn-active btn-neutral text-2xl">
+              ডিলিট করুন
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
     <script src="./assets/js/script.js"></script>
   </body>

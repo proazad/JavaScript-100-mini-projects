@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&display=swap");
+* {
+  font-family: "Hind Siliguri", sans-serif;
+/* }
+main#main-content {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.subohanalla,
+.alhamdulillah,
+.allahuakbar {
+  background: #444444;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  width: 33.33%;
+}
+h1,
+p {
+  color: #ffff;
+}
+#bismillah,
+#alhamdulillah,
+#allahuakbar {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: green;
+  color: #fff;
+  font-size: 18px;
+} */
