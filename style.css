@@ -20,3 +20,35 @@
   font-weight: 600;
   color: #202020;
 }
+.last-ten-project {
+  background-color: rgb(189, 80, 244);
+}
+.last-ten-project ol {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0px;
+  gap: 10px;
+}
+.last-ten-project ol li {
+  background-color: brown;
+  margin-left: 0;
+  padding: 20px;
+  text-align: center;
+}
+.last-ten-project ol li span {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+}
+.last-ten-project ol li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.last-ten-project ol li:hover a {
+  text-decoration: underline;
+}

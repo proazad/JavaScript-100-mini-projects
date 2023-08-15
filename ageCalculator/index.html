@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <a href="../index.html" class="btn m-2 text-info btn-active text-black"
+      >Back Home</a
+    >
+    <section id="age-calculator" class="w-1/2 mx-auto my-10 bg-green-200 p-5">
+      <h1 class="text-2xl mb-4">This is Age Calculator</h1>
+      <div class="w-full">
+        <div class="form-control grid grid-cols-6">
+          <label for="startDate" class="col-span-2 text-2xl"
+            >Date of Birth</label
+          >
+          <input
+            type="date"
+            class="col-span-4 input input-bordered input-lg mb-4 uppercase"
+            id="startDate"
+          />
+        </div>
+
+        <div class="form-control grid grid-cols-6">
+          <label for="endDate" class="text-2xl col-span-2"
+            >Age at the day of</label
+          >
+          <input
+            type="date"
+            class="col-span-4 input input-bordered input-lg mb-4 uppercase"
+            id="endDate"
+          />
+        </div>
+
+        <button class="btn btn-secondary" id="calculate">Calculate</button>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
