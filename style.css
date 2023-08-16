@@ -22,6 +22,7 @@
 }
 .last-ten-project {
   background-color: rgb(189, 80, 244);
+  padding: 20px;
 }
 .last-ten-project ol {
   display: grid;
